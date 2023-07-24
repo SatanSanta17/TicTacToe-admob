@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- custom_modal_layout.xml -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/modal_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Modal Title"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/modal_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the content of the modal."
+            android:textColor="@android:color/black" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            >
+            <Button
+                android:id="@+id/watch_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watch"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_green_dark"
+                android:layout_marginRight="10dp" />
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_green_dark" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
